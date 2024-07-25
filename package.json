@@ -1,0 +1,23 @@
+{
+  "name": "mysql-connection",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "mailgen": "^2.0.28",
+    "mysql2": "^3.10.3",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4"
+  }
+}
